@@ -1,0 +1,91 @@
+/* PERSONALIZAÇÕES GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+   
+}
+
+/* PERSONALIZAÇÃO DA DIVS UTILIZADAS*/
+
+/* ICONE "FECHAR" FEITO MANUALMENTE */
+.close-box{
+    width: 30px;
+    height:30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    cursor: pointer;
+}
+
+.close-box .line-1{
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    transform: rotate(135deg);
+}
+.close-box .line-2{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+/* PERSONALIZAÇÃO DIV ONDE RESIDE O ICONE DE LUPA */
+.barra-busca {
+   width: 80px;
+   height: 80px;
+   background-color: white;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   transition: 0.3s;
+}
+/* PERSONALIZAÇÃO ATIVADA COM O "CLICK" DO USUÁRIO NA ÁREA DE PESQUISA */
+.barra-busca.abrir{
+    width: 400px;
+   
+}
+/* PERSONALIZAÇÃO DAS DIVS*/
+.barra-busca .pesquisar-box, .barra-busca .close-box {
+    min-width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+/* PERSONALIZAÇÃO DO ICONE PESQUISAR */
+.barra-busca .pesquisar-box i {
+    font-size: 30px;
+}
+/* PERSONALIZAÇÃO DA ÁREA ONDE RESIDE O "INPUT"*/
+.barra-busca .input-box {
+    position: absolute;
+    left: 80px;
+    width: calc(100% -120px);
+    height: 100%;
+    line-height: 80px;
+}
+/* PERSONALIZAÇÃO DO CAMPO DE PREENCHIMENTO */
+.barra-busca .input-box input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #282828;
+    font-size: 18px;
+}
+
+
+
+
+
