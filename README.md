@@ -2,7 +2,7 @@
 
   &#xa0;
 
-![Interface do Projeto](interface.gif)
+![Interface do Projeto](Assets/interface.gif)
 
 </div>
 
