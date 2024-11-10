@@ -21,12 +21,11 @@
 <hr>
 
 <p align="center">
-  <a href="#coffee-about">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#coffee-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requisitos">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começar">Clone o Repositório</a> &#xa0; | &#xa0;
+  <a href="https://github.com/ESChrystian" target="_blank">Autor</a>
 </p>
 
 <br>
